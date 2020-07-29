@@ -19,4 +19,11 @@ class Market
       vendor.inventory.keys.include?(item)
     end
    end
+
+   # def total_inventory
+   #   inventory = Hash.new(0)
+   #   @vendors.each do |vendor|
+   #     vendor.inventory.each do |item, quantity|
+   # end
+
   end
