@@ -15,9 +15,9 @@ class VendorTest < Minitest::Test
 
   def test_it_has_attributes
     vendor = Vendor.new("Rocky Mountain Fresh")
-
+    expected = {}
     assert_equal "Rocky Mountain Fresh", vendor.name
-    assert_equal {}, vendor.inventory
+    assert_equal expected, vendor.inventory
   end
 
   def test_it_can_stock_inventory
